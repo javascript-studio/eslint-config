@@ -3,5 +3,8 @@
   "version": "0.0.0",
   "description": "The JavaScript Studio sharable eslint config",
   "main": "index.js",
-  "author": "Maximilian Antoni <max@javascript.studio> (http://javascript.studio)"
+  "author": "Maximilian Antoni <max@javascript.studio> (http://javascript.studio)",
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  }
 }
