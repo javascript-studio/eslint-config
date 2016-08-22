@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "The JavaScript Studio sharable eslint config",
   "main": "index.js",
-  "private": true,
   "author": "Maximilian Antoni <max@javascript.studio> (http://javascript.studio)",
   "license": "MIT"
 }
