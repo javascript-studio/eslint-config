@@ -24,8 +24,4 @@ Make sure this is in your `package.json`:
 }
 ```
 
-## License
-
-MIT
-
 [docs]: http://eslint.org/docs/developer-guide/shareable-configs
