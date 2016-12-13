@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "The JavaScript Studio sharable eslint config",
   "main": "index.js",
-  "author": "Maximilian Antoni <max@javascript.studio> (http://javascript.studio)",
+  "author": "Maximilian Antoni <max@javascript.studio>",
+  "homepage": "https://github.com/javascript-studio/studio-eslint-config",
   "scripts": {
     "postversion": "git push --follow-tags"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javascript-studio/studio-eslint-config.git"
+  },
+  "license": "MIT"
 }

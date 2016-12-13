@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Maximilian Antoni <max@javascript.studio>
+ *
+ * @license MIT
+ */
 'use strict';
 
 module.exports = {

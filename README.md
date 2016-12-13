@@ -18,10 +18,19 @@ Make sure this is in your `package.json`:
     "extends": "@studio"
   },
   "devDependencies": {
-    "@studio/eslint-config": "*",
+    "@studio/eslint-config": "^1.0.0",
     "eslint": "^3.3.0"
   }
 }
 ```
 
+__Pro tip™:__ Check out [eslint_d][] for faster editor integration.
+
+## License
+
+MIT
+
+<div align="center">Made with ❤️ on 🌍</div>
+
 [docs]: http://eslint.org/docs/developer-guide/shareable-configs
+[eslint_d]: https://www.npmjs.com/package/eslint_d
