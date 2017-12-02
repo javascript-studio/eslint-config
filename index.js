@@ -44,7 +44,16 @@ module.exports = {
     eqeqeq: 2,
     'handle-callback-err': 2,
     'guard-for-in': 2,
-    indent: [2, 2],
+    indent: ['error', 2, {
+      FunctionDeclaration: {
+        parameters: 2,
+        body: 1
+      },
+      FunctionExpression: {
+        parameters: 2,
+        body: 1
+      }
+    }],
     'linebreak-style': [2, 'unix'],
     'max-len': [2, 80, 4],
     'new-cap': 2,
