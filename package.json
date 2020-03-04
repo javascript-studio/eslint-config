@@ -13,7 +13,8 @@
     "@studio/changes": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-mocha": "^6.3.0"
   },
   "repository": {
     "type": "git",

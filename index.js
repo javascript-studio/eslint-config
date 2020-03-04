@@ -14,9 +14,22 @@ module.exports = {
     es6: true
   },
 
-  extends: 'eslint:recommended',
+  plugins: [
+    'mocha'
+  ],
+
+  extends: [
+    'eslint:recommended',
+    'plugin:mocha/recommended'
+  ],
 
   rules: {
+    'mocha/no-hooks-for-single-case': 0,
+    'mocha/no-mocha-arrows': 0,
+    'mocha/no-pending-tests': 0,
+    'mocha/no-skipped-tests': 0,
+    'mocha/prefer-arrow-callback': 2,
+
     'arrow-spacing': 2,
     'keyword-spacing': 2,
     'constructor-super': 2,
