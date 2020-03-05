@@ -20,7 +20,8 @@ module.exports = {
 
   extends: [
     'eslint:recommended',
-    'plugin:mocha/recommended'
+    'plugin:mocha/recommended',
+    'plugin:prettier/recommended'
   ],
 
   rules: {
@@ -29,6 +30,8 @@ module.exports = {
     'mocha/no-pending-tests': 0,
     'mocha/no-skipped-tests': 0,
     'mocha/prefer-arrow-callback': 2,
+
+    "prettier/prettier": ["error", { "singleQuote": true }],
 
     'arrow-spacing': 2,
     'keyword-spacing': 2,
@@ -68,7 +71,6 @@ module.exports = {
       }
     }],
     'linebreak-style': [2, 'unix'],
-    'max-len': [2, 80, 4],
     'new-cap': 2,
     'new-parens': 2,
     'no-alert': 2,
@@ -103,7 +105,14 @@ module.exports = {
     'no-void': 2,
     'object-curly-spacing': [2, 'always'],
     'operator-linebreak': [2, 'before'],
-    'quotes': [2, 'single'],
+    // 'quotes' adjusted to work well with prettier
+    // https://github.com/prettier/eslint-config-prettier#quotes
+    // https://eslint.org/docs/rules/quotes
+    'quotes': [
+      'error',
+      'single',
+      { 'avoidEscape': true, 'allowTemplateLiterals': false }
+    ]
     'quote-props': [2, 'as-needed'],
     radix: 2,
     semi: [2, 'always'],
