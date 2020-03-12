@@ -1,5 +1,9 @@
 # Changes
 
+## 1.1.1
+
+- Fix syntax error (Morgan Roderick)
+
 ## 1.1.0
 
 - Allow early use of functions (Morgan Roderick)
