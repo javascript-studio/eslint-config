@@ -99,7 +99,7 @@ module.exports = {
     'no-unneeded-ternary': 2,
     'no-unused-expressions': 2,
     'no-unused-vars': [2, { args: 'after-used', argsIgnorePattern: '^_' }],
-    'no-use-before-define': ['error', { 'functions': false, 'classes': true }]
+    'no-use-before-define': ['error', { 'functions': false, 'classes': true }],
     'no-useless-call': 2,
     'no-useless-concat': 2,
     'no-void': 2,
@@ -112,7 +112,7 @@ module.exports = {
       'error',
       'single',
       { 'avoidEscape': true, 'allowTemplateLiterals': false }
-    ]
+    ],
     'quote-props': [2, 'as-needed'],
     radix: 2,
     semi: [2, 'always'],
