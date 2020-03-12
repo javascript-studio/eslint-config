@@ -6,11 +6,11 @@
   "author": "Maximilian Antoni <max@javascript.studio>",
   "homepage": "https://github.com/javascript-studio/studio-eslint-config",
   "scripts": {
-    "version": "changes",
+    "version": "changes --commits --footer",
     "postversion": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
-    "@studio/changes": "^1.0.0"
+    "@studio/changes": "^2.0.0"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
