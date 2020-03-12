@@ -84,13 +84,20 @@ module.exports = {
     'no-unneeded-ternary': 2,
     'no-unused-expressions': 2,
     'no-unused-vars': [2, { args: 'after-used', argsIgnorePattern: '^_' }],
-    'no-use-before-define': ['error', { 'functions': false, 'classes': true }]
+    'no-use-before-define': ['error', { 'functions': false, 'classes': true }],
     'no-useless-call': 2,
     'no-useless-concat': 2,
     'no-void': 2,
     'object-curly-spacing': [2, 'always'],
     'operator-linebreak': [2, 'before'],
-    'quotes': [2, 'single'],
+    // 'quotes' adjusted to work well with prettier
+    // https://github.com/prettier/eslint-config-prettier#quotes
+    // https://eslint.org/docs/rules/quotes
+    'quotes': [
+      'error',
+      'single',
+      { 'avoidEscape': true, 'allowTemplateLiterals': false }
+    ],
     'quote-props': [2, 'as-needed'],
     radix: 2,
     semi: [2, 'always'],
