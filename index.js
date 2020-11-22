@@ -20,110 +20,136 @@ module.exports = {
 
   extends: [
     'eslint:recommended',
-    'plugin:mocha/recommended',
-    'plugin:prettier/recommended'
+    'plugin:node/recommended'
   ],
 
+  overrides: [{
+    files: [
+      '**/*.test.js',
+      '**/*-test.js'
+    ],
+    env: {
+      mocha: true
+    }
+  }],
+
+  // Formatting should be handled by prettier.
   rules: {
-    'mocha/no-hooks-for-single-case': 0,
-    'mocha/no-mocha-arrows': 0,
-    'mocha/no-pending-tests': 0,
-    'mocha/no-skipped-tests': 0,
+    // https://github.com/lo1tuma/eslint-plugin-mocha
+    'mocha/no-async-describe': 2,
+    'mocha/no-exclusive-tests': 2,
+    'mocha/no-identical-title': 2,
+    'mocha/no-return-and-callback': 2,
     'mocha/prefer-arrow-callback': 2,
 
-    "prettier/prettier": ["error", { "singleQuote": true }],
-
-    'arrow-spacing': 2,
-    'keyword-spacing': 2,
-    'constructor-super': 2,
-    'no-class-assign': 2,
-    'no-const-assign': 2,
-    'no-dupe-class-members': 2,
-    'no-this-before-super': 2,
-    'no-var': 2,
-    'object-shorthand': 2,
-    'prefer-arrow-callback': 1,
-    'prefer-const': 1,
-    'prefer-spread': 2,
-    'prefer-template': 2,
-
-    'array-bracket-spacing': [2, 'never'],
-    'block-scoped-var': 2,
-    'block-spacing': 2,
-    'brace-style': [2, '1tbs', { allowSingleLine: true }],
-    'comma-spacing': [2, { before: false, after: true }],
-    'comma-style': [2, 'last'],
-    'consistent-return': 2,
-    curly: 2,
-    'dot-notation': 2,
-    'dot-location': [2, 'property'],
-    eqeqeq: 2,
-    'handle-callback-err': 2,
-    'guard-for-in': 2,
-    indent: ['error', 2, {
-      FunctionDeclaration: {
-        parameters: 2,
-        body: 1
-      },
-      FunctionExpression: {
-        parameters: 2,
-        body: 1
-      }
+    // https://github.com/mysticatea/eslint-plugin-node
+    'node/handle-callback-err': 2,
+    'node/no-callback-literal': 2,
+    'node/no-new-require': 2,
+    'node/global-require': 2,
+    'node/no-mixed-requires': 2,
+    'node/no-sync': 2,
+    'node/prefer-global/buffer': 2,
+    'node/prefer-global/console': 2,
+    'node/prefer-global/process': 2,
+    'node/prefer-global/text-decoder': 2,
+    'node/prefer-global/text-encoder': 2,
+    'node/prefer-global/url-search-params': 2,
+    'node/prefer-global/url': 2,
+    // node default tweaks
+    'node/no-unpublished-require': 0, // fails for @sinonjs/referee-sinon
+    'node/no-missing-require': [2, {
+      'tryExtensions': ['.js', '.json']
     }],
-    'linebreak-style': [2, 'unix'],
-    'new-cap': 2,
-    'new-parens': 2,
+    'node/shebang': 0,
+    'no-process-exit': 0,
+
+    // eslint default tweaks
+    'no-unused-vars': [2, { args: 'after-used', argsIgnorePattern: '^_' }],
+
+    // Possible Errors (not in recommended)
+    'no-template-curly-in-string': 2,
+    'no-unreachable-loop': 2,
+    'no-useless-backreference': 2,
+    'require-atomic-updates': 2,
+
+    // Best Practices (not in recommended)
+    'array-callback-return': 2,
+    'block-scoped-var': 2,
+    'complexity': 2,
+    'consistent-return': 2,
+    'curly': 2,
+    'default-case': 2,
+    'default-case-last': 2,
+    'default-param-last': 2,
+    'eqeqeq': 2,
+    'guard-for-in': 2,
     'no-alert': 2,
     'no-caller': 2,
-    'no-catch-shadow': 2,
-    'no-console': 0,
+    'no-constructor-return': 2,
     'no-else-return': 2,
     'no-eq-null': 2,
     'no-eval': 2,
-    'no-extend-native': [2],
+    'no-extend-native': 2,
     'no-extra-bind': 2,
+    'no-extra-label': 2,
+    'no-floating-decimal': 2,
+    'no-implicit-coercion': 2,
     'no-implied-eval': 2,
-    'no-lonely-if': 2,
+    'no-iterator': 2,
+    'no-lone-blocks': 2,
     'no-loop-func': 2,
-    'no-multiple-empty-lines': [2, { max: 2 }],
+    'no-new': 2,
     'no-new-func': 2,
     'no-new-wrappers': 2,
-    'no-new': 2,
+    'no-octal-escape': 2,
+    'no-proto': 2,
+    'no-restricted-properties': 2,
     'no-return-assign': 2,
+    'no-return-await': 2,
     'no-self-compare': 2,
-    'no-spaced-func': 2,
-    'no-sync': 2,
+    'no-sequences': 2,
     'no-throw-literal': 2,
-    'no-trailing-spaces': 2,
-    'no-undef-init': 2,
-    'no-unneeded-ternary': 2,
+    'no-unmodified-loop-condition': 2,
     'no-unused-expressions': 2,
-    'no-unused-vars': [2, { args: 'after-used', argsIgnorePattern: '^_' }],
-    'no-use-before-define': ['error', { 'functions': false, 'classes': true }],
     'no-useless-call': 2,
     'no-useless-concat': 2,
+    'no-useless-return': 2,
     'no-void': 2,
-    'object-curly-spacing': [2, 'always'],
-    'operator-linebreak': [2, 'before'],
-    // 'quotes' adjusted to work well with prettier
-    // https://github.com/prettier/eslint-config-prettier#quotes
-    // https://eslint.org/docs/rules/quotes
-    'quotes': [
-      'error',
-      'single',
-      { 'avoidEscape': true, 'allowTemplateLiterals': false }
-    ],
-    'quote-props': [2, 'as-needed'],
-    radix: 2,
-    semi: [2, 'always'],
-    'semi-spacing': 2,
-    'space-before-blocks': 2,
-    'space-before-function-paren': [2, { anonymous: 'always', named: 'never' }],
-    'space-in-parens': [2, 'never'],
-    'space-infix-ops': 2,
-    'space-unary-ops': 2,
-    strict: [2, 'global'],
-    'wrap-iife': [2, 'outside'],
-    yoda: 2
+    'prefer-promise-reject-errors': 2,
+    'prefer-regex-literals': 2,
+    'radix': 2,
+    'require-await': 2,
+    'yoda': 2,
+    'strict': 2,
+
+    // Variables
+    'no-label-var': 2,
+    'no-restricted-globals': 2,
+    'no-shadow': 2,
+    'no-use-before-define': [2, "nofunc"],
+
+    // Stylistic Issues
+    'comma-dangle': 2,
+    'max-depth': 2,
+    'max-nested-callbacks': 2,
+    'new-cap': 2,
+    'new-parens': 2,
+    'no-array-constructor': 2,
+    'no-lonely-if': 2,
+    'no-new-object': 2,
+    'no-unneeded-ternary': 2,
+    'semi': 2,
+
+    // ECMAScript 6
+    'no-useless-computed-key': 2,
+    'no-useless-constructor': 2,
+    'no-useless-rename': 2,
+    'no-var': 2,
+    'object-shorthand': 2,
+    'prefer-arrow-callback': 2,
+    'prefer-const': 2,
+    'prefer-spread': 2,
+    'prefer-template': 2
   }
 };
