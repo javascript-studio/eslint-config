@@ -1,25 +1,27 @@
 # Changes
 
+## 2.0.0
+
+- [`087bb93`](https://github.com/javascript-studio/studio-eslint-config/commit/087bb9337644a279f6a34d1bb5e513b4fa4dc148)
+  Rewrite config and dependencies (#7)
+    >
+    > - Add node plugin and use recomended settings
+    > - Drop prettier integration with eslint
+    > - Rework mocha rules
+    > - Review all rules
+    > - Remove formatting related rules to avoid conflicts with prettier
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2020-11-22._
+
 ## 1.1.1
 
-- Fix syntax error (Morgan Roderick)
+- [`2ec0549`](https://github.com/javascript-studio/studio-eslint-config/commit/2ec0549a3bca5b5d89e9089b440949bcab23af87)
+  Fix syntax errors (Morgan Roderick)
 
 ## 1.1.0
 
-- Allow early use of functions (Morgan Roderick)
-    >
-    > Function declarations are hoisted, so early use of functions (before
-    > they're declared) is safe.
-    >
-    > This allows organisation of code to read like a newspaper article, i.e.
-    > from higher to lower abstraction level, which is recommended by people
-    > like Robert C. Martin (Clean Code) and Kent C. Dodds.
-    >
-    > See:
-    >   * https://eslint.org/docs/rules/no-use-before-define#options
-    >   * https://books.google.es/books?id=_i6bDeoCQzsC&pg=PA136&lpg=PA136&dq=code+read+like+a+newspaper+article&source=bl&ots=epaNGi4a19&sig=ACfU3U1J0a7UzLLelJBJVgfENXgKxfNalw&hl=en&sa=X&ved=2ahUKEwjTkOfsv5LoAhWiyoUKHdlgAeEQ6AEwAnoECAoQAQ#v=onepage&q=code%20read%20like%20a%20newspaper%20article&f=false
-    >   * https://kentcdodds.com/blog/newspaper-code-structure
-    >
+- [`3d0a3bc`](https://github.com/javascript-studio/studio-eslint-config/commit/3d0a3bcdb80bd1fb5652a62cbcd39eea6d801a2c)
+  Allow early use of functions (Morgan Roderick)
 
 ## 1.0.2
 
