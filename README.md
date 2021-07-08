@@ -5,7 +5,7 @@ The [sharable eslint config][docs] for all JavaScript Studio projects.
 ## Install
 
 ```bash
-$ npm install @studio/eslint-config eslint --save-dev
+$ npm install @studio/eslint-config eslint eslint-plugin-mocha eslint-plugin-node --save-dev
 ```
 
 ## Usage
@@ -16,10 +16,6 @@ Make sure this is in your `package.json`:
 {
   "eslintConfig": {
     "extends": "@studio"
-  },
-  "devDependencies": {
-    "@studio/eslint-config": "^1.0.0",
-    "eslint": "^3.3.0"
   }
 }
 ```
