@@ -26,7 +26,8 @@ module.exports = {
   overrides: [{
     files: [
       '**/*.test.js',
-      '**/*-test.js'
+      '**/*-test.js',
+      '**/*.integration.js'
     ],
     env: {
       mocha: true
