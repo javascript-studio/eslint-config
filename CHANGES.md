@@ -1,5 +1,12 @@
 # Changes
 
+## 2.2.0
+
+- 🍏 [`c4a37e7`](https://github.com/javascript-studio/eslint-config/commit/c4a37e7ed4743d91de1f0fb7386917fa66351b82)
+  Declare `**/*.integration.js` pattern as mocha env
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2021-07-27._
+
 ## 2.1.0
 
 - 🍏 [`9b034bf`](https://github.com/javascript-studio/eslint-config/commit/9b034bf159367e054c4b44e9987e9fd88b961deb)
