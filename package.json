@@ -6,6 +6,8 @@
   "author": "Maximilian Antoni <max@javascript.studio>",
   "homepage": "https://github.com/javascript-studio/eslint-config",
   "scripts": {
+    "test": "eslint --config index.js index.js",
+    "preversion": "npm test",
     "version": "changes --commits --footer",
     "postversion": "git push --follow-tags && npm publish"
   },
