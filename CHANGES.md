@@ -1,5 +1,18 @@
 # Changes
 
+## 2.3.0
+
+- 🍏 [`bed55ec`](https://github.com/javascript-studio/eslint-config/commit/bed55ec462bab33db91990721e69201b00c598b6)
+  Allow eslint-plugin-mocha ^10
+- 🍏 [`361aeee`](https://github.com/javascript-studio/eslint-config/commit/361aeee06d6f2bb3e86fad0c5477a30d21ddb21c)
+  Support eslint 8
+- 🛡 [`28d99ca`](https://github.com/javascript-studio/eslint-config/commit/28d99ca887617c33f82e19370a5904a24f086608)
+  npm audit
+- ✨ [`41e0198`](https://github.com/javascript-studio/eslint-config/commit/41e01980b22034569bac376808a20ba604f4f90b)
+  Add test script to lint the linter config
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2022-01-05._
+
 ## 2.2.0
 
 - 🍏 [`c4a37e7`](https://github.com/javascript-studio/eslint-config/commit/c4a37e7ed4743d91de1f0fb7386917fa66351b82)
