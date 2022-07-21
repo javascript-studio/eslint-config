@@ -15,13 +15,24 @@ module.exports = {
   },
 
   plugins: [
-    'mocha'
+    'mocha',
+    'jsdoc'
   ],
 
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended'
+    'plugin:node/recommended',
+    'plugin:jsdoc/recommended'
   ],
+
+  settings: {
+    jsdoc: {
+      mode: 'typescript',
+      preferredTypes: {
+        object: 'Object'
+      }
+    }
+  },
 
   overrides: [{
     files: [
@@ -42,6 +53,15 @@ module.exports = {
     'mocha/no-identical-title': 2,
     'mocha/no-return-and-callback': 2,
     'mocha/prefer-arrow-callback': 2,
+
+    // https://github.com/gajus/eslint-plugin-jsdoc
+    'jsdoc/require-jsdoc': 'off',
+    'jsdoc/require-param-description': 'off',
+    'jsdoc/require-returns-description': 'off',
+    'jsdoc/require-property-description': 'off',
+    'jsdoc/check-indentation': 'warn',
+    'jsdoc/check-line-alignment': 'warn',
+    'jsdoc/require-hyphen-before-param-description': 'warn',
 
     // https://github.com/mysticatea/eslint-plugin-node
     'node/handle-callback-err': 2,
