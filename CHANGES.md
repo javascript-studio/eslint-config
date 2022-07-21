@@ -1,5 +1,14 @@
 # Changes
 
+## 3.0.0
+
+- 💥 [`6e2362c`](https://github.com/javascript-studio/eslint-config/commit/6e2362c41507b6b1c46f8af026db72d6845f9d87)
+  Configure JSDoc
+- 🛡 [`c62cbcf`](https://github.com/javascript-studio/eslint-config/commit/c62cbcf20738962ca3b1ba98333988fcfae12cb3)
+  Bump minimist from 1.2.5 to 1.2.6 (dependabot[bot])
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2022-07-21._
+
 ## 2.3.0
 
 - 🍏 [`bed55ec`](https://github.com/javascript-studio/eslint-config/commit/bed55ec462bab33db91990721e69201b00c598b6)
