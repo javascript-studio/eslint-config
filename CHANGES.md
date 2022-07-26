@@ -1,5 +1,12 @@
 # Changes
 
+## 3.0.1
+
+- 🐛 [`93a45e2`](https://github.com/javascript-studio/eslint-config/commit/93a45e2eb5022e6259daf0cb62905250076fb662)
+  Add `jsdoc/no-undefined-types`
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2022-07-26._
+
 ## 3.0.0
 
 - 💥 [`6e2362c`](https://github.com/javascript-studio/eslint-config/commit/6e2362c41507b6b1c46f8af026db72d6845f9d87)
