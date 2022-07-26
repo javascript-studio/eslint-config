@@ -55,6 +55,7 @@ module.exports = {
     'mocha/prefer-arrow-callback': 2,
 
     // https://github.com/gajus/eslint-plugin-jsdoc
+    'jsdoc/no-undefined-types': 'error',
     'jsdoc/require-jsdoc': 'off',
     'jsdoc/require-param-description': 'off',
     'jsdoc/require-returns-description': 'off',
