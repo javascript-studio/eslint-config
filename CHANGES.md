@@ -1,5 +1,14 @@
 # Changes
 
+## 3.1.0
+
+- 🍏 [`2125d01`](https://github.com/javascript-studio/eslint-config/commit/2125d01b1d80fdba2309723c1dca980be6a3a774)
+  Declare compatibility with jsdoc 4
+- 🛡️ [`19cb915`](https://github.com/javascript-studio/eslint-config/commit/19cb915a5149802b76cf984190254c2d03bd7a8f)
+  Bump minimatch from 3.0.4 to 3.1.2 (dependabot[bot])
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2022-11-17._
+
 ## 3.0.1
 
 - 🐛 [`93a45e2`](https://github.com/javascript-studio/eslint-config/commit/93a45e2eb5022e6259daf0cb62905250076fb662)
