@@ -11,7 +11,7 @@ module.exports = {
 
   env: {
     node: true,
-    es6: true
+    es2022: true
   },
 
   plugins: [
@@ -80,6 +80,7 @@ module.exports = {
     'node/prefer-global/url': 2,
     // node default tweaks
     'node/no-unpublished-require': 0, // fails for @sinonjs/referee-sinon
+    'node/no-unpublished-import': 0, // fails for commander and some @studio projects
     'node/no-missing-require': [2, {
       'tryExtensions': ['.js', '.json']
     }],
