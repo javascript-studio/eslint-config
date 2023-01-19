@@ -1,5 +1,14 @@
 # Changes
 
+## 4.0.1
+
+- 🐛 [`e669f78`](https://github.com/javascript-studio/eslint-config/commit/e669f78468a64d40d5cef1fbd717bd5e6824e370)
+  Fix ecma version setup
+- 🐛 [`982a135`](https://github.com/javascript-studio/eslint-config/commit/982a1353b1853010eb5495e56a595cb92c2ff696)
+  Switch to eslint-plugin-n
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2023-01-19._
+
 ## 4.0.0
 
 - 💥 [`e92eb78`](https://github.com/javascript-studio/eslint-config/commit/e92eb785da9f5b7c3febd8860ffda05c449936e1)
