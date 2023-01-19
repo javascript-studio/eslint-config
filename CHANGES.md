@@ -1,5 +1,16 @@
 # Changes
 
+## 4.0.0
+
+- 💥 [`e92eb78`](https://github.com/javascript-studio/eslint-config/commit/e92eb785da9f5b7c3febd8860ffda05c449936e1)
+  Set env to es2022
+- 💥 [`e33122e`](https://github.com/javascript-studio/eslint-config/commit/e33122ede785e5de8d89e6dd192988c174b062da)
+  Require eslint 8 and jsdoc 4
+- ✨ [`3daa57b`](https://github.com/javascript-studio/eslint-config/commit/3daa57bcbf37f8e408beea67e568f42ddf0f10ca)
+  Reinstall dependencies
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2023-01-19._
+
 ## 3.1.0
 
 - 🍏 [`2125d01`](https://github.com/javascript-studio/eslint-config/commit/2125d01b1d80fdba2309723c1dca980be6a3a774)
