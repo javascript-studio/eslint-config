@@ -21,7 +21,7 @@ module.exports = {
 
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended',
+    'plugin:n/recommended',
     'plugin:jsdoc/recommended'
   ],
 
@@ -64,27 +64,27 @@ module.exports = {
     'jsdoc/check-line-alignment': 'warn',
     'jsdoc/require-hyphen-before-param-description': 'warn',
 
-    // https://github.com/mysticatea/eslint-plugin-node
-    'node/handle-callback-err': 2,
-    'node/no-callback-literal': 2,
-    'node/no-new-require': 2,
-    'node/global-require': 2,
-    'node/no-mixed-requires': 2,
-    'node/no-sync': 2,
-    'node/prefer-global/buffer': 2,
-    'node/prefer-global/console': 2,
-    'node/prefer-global/process': 2,
-    'node/prefer-global/text-decoder': 2,
-    'node/prefer-global/text-encoder': 2,
-    'node/prefer-global/url-search-params': 2,
-    'node/prefer-global/url': 2,
+    // https://github.com/eslint-community/eslint-plugin-n
+    'n/handle-callback-err': 2,
+    'n/no-callback-literal': 2,
+    'n/no-new-require': 2,
+    'n/global-require': 2,
+    'n/no-mixed-requires': 2,
+    'n/no-sync': 2,
+    'n/prefer-global/buffer': 2,
+    'n/prefer-global/console': 2,
+    'n/prefer-global/process': 2,
+    'n/prefer-global/text-decoder': 2,
+    'n/prefer-global/text-encoder': 2,
+    'n/prefer-global/url-search-params': 2,
+    'n/prefer-global/url': 2,
     // node default tweaks
-    'node/no-unpublished-require': 0, // fails for @sinonjs/referee-sinon
-    'node/no-unpublished-import': 0, // fails for commander and some @studio projects
-    'node/no-missing-require': [2, {
+    'n/no-unpublished-require': 0, // fails for @sinonjs/referee-sinon
+    'n/no-unpublished-import': 0, // fails for commander and some @studio projects
+    'n/no-missing-require': [2, {
       'tryExtensions': ['.js', '.json']
     }],
-    'node/shebang': 0,
+    'n/shebang': 0,
     'no-process-exit': 0,
 
     // eslint default tweaks

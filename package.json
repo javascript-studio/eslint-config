@@ -18,7 +18,7 @@
     "eslint": "^8",
     "eslint-plugin-jsdoc": "^39",
     "eslint-plugin-mocha": "^10",
-    "eslint-plugin-node": "^11",
+    "eslint-plugin-n": "^15",
     "jsdoc": "^4"
   },
   "repository": {
