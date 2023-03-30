@@ -1,5 +1,12 @@
 # Changes
 
+## 4.1.0
+
+- 🍏 [`cb6fd08`](https://github.com/javascript-studio/eslint-config/commit/cb6fd08cd09fc49450a1a67ac417773ca49628f8)
+  Support eslint-plugin-jsdoc v40
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2023-03-30._
+
 ## 4.0.1
 
 - 🐛 [`e669f78`](https://github.com/javascript-studio/eslint-config/commit/e669f78468a64d40d5cef1fbd717bd5e6824e370)
