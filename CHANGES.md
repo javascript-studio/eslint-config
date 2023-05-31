@@ -1,5 +1,12 @@
 # Changes
 
+## 5.0.0
+
+- [`0a58718`](https://github.com/javascript-studio/eslint-config/commit/0a58718ebd1dc186a0282f81999179f3f57dca9a)
+  Upgrade eslint plugins
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2023-05-31._
+
 ## 4.1.0
 
 - 🍏 [`cb6fd08`](https://github.com/javascript-studio/eslint-config/commit/cb6fd08cd09fc49450a1a67ac417773ca49628f8)
