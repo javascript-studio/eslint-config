@@ -16,9 +16,9 @@
   },
   "peerDependencies": {
     "eslint": "^8",
-    "eslint-plugin-jsdoc": "^39 || ^40",
+    "eslint-plugin-jsdoc": "^44",
     "eslint-plugin-mocha": "^10",
-    "eslint-plugin-n": "^15",
+    "eslint-plugin-n": "^16",
     "jsdoc": "^4"
   },
   "repository": {
