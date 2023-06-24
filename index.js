@@ -67,6 +67,7 @@ module.exports = {
     'jsdoc/check-indentation': 'warn',
     'jsdoc/check-line-alignment': 'warn',
     'jsdoc/require-hyphen-before-param-description': 'warn',
+    'jsdoc/tag-lines': ['warn', 'never', { 'startLines': 1 }],
 
     // https://github.com/eslint-community/eslint-plugin-n
     'n/handle-callback-err': 2,
