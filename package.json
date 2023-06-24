@@ -1,6 +1,6 @@
 {
   "name": "@studio/eslint-config",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "The JavaScript Studio sharable eslint config",
   "main": "index.js",
   "author": "Maximilian Antoni <max@javascript.studio>",

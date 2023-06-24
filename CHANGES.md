@@ -1,8 +1,17 @@
 # Changes
 
+## 6.0.0
+
+- 💄 [`31acb03`](https://github.com/javascript-studio/eslint-config/commit/31acb035ec51089223407fad1823de438ddab2ea)
+  Require blank line between jsdoc comment and tags
+- 🍏 [`d9db688`](https://github.com/javascript-studio/eslint-config/commit/d9db688c7b10fe1e245d38ccc6506bbcaa84457a)
+  Upgrade eslint-plugin-jsdoc
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2023-06-24._
+
 ## 5.0.0
 
-- [`0a58718`](https://github.com/javascript-studio/eslint-config/commit/0a58718ebd1dc186a0282f81999179f3f57dca9a)
+- 🍏 [`0a58718`](https://github.com/javascript-studio/eslint-config/commit/0a58718ebd1dc186a0282f81999179f3f57dca9a)
   Upgrade eslint plugins
 
 _Released by [Maximilian Antoni](https://github.com/mantoni) on 2023-05-31._
