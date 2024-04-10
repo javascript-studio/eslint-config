@@ -2,24 +2,30 @@
   "name": "@studio/eslint-config",
   "version": "7.0.0",
   "description": "The JavaScript Studio sharable eslint config",
-  "main": "index.js",
+  "main": "eslint.config.js",
+  "type": "module",
   "author": "Maximilian Antoni <max@javascript.studio>",
   "homepage": "https://github.com/javascript-studio/eslint-config",
   "scripts": {
-    "test": "eslint --config index.js index.js",
+    "test": "eslint *.js",
     "preversion": "npm test",
     "version": "changes --commits --footer",
     "postversion": "git push --follow-tags && npm publish"
   },
+  "dependencies": {
+    "@eslint/js": "*",
+    "globals": "*"
+  },
   "devDependencies": {
-    "@studio/changes": "^3.0.0"
+    "@studio/changes": "^3.0.0",
+    "prettier": "^3.2.5"
   },
   "peerDependencies": {
-    "eslint": "^8",
-    "eslint-plugin-jsdoc": "^48.5.0",
-    "eslint-plugin-mocha": "^10.4.3",
-    "eslint-plugin-n": "^17.9.0",
-    "jsdoc": "^4.0.3"
+    "eslint": "^9",
+    "eslint-plugin-jsdoc": "^48",
+    "eslint-plugin-mocha": "^10",
+    "eslint-plugin-n": "^17",
+    "jsdoc": "^4"
   },
   "repository": {
     "type": "git",
