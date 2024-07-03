@@ -1,5 +1,24 @@
 # Changes
 
+## 7.0.0
+
+- 🍏 [`1cdcfb1`](https://github.com/javascript-studio/eslint-config/commit/1cdcfb1171c7daf0aecf108bc008562789b30b71)
+  Update jsdoc
+- 🍏 [`3023a23`](https://github.com/javascript-studio/eslint-config/commit/3023a230e191e51730b1a1b1027ff71639a1cb92)
+  Update eslint-plugin-mocha
+- 🍏 [`1899552`](https://github.com/javascript-studio/eslint-config/commit/1899552d102edcba2411ae60b08a59d7d0921b52)
+  Upgrade eslint-plugin-n
+- 🍏 [`5b2cc99`](https://github.com/javascript-studio/eslint-config/commit/5b2cc99c833be3a81f6b5183d945b2d69d5f2f7b)
+  Upgrade eslint-plugin-jsdoc
+- ✨ [`eb10503`](https://github.com/javascript-studio/eslint-config/commit/eb105030f34eb0f6d85921caa88ccb34dc0fc634)
+  Upgrade Studio Changes
+- 🛡️ [`a85468d`](https://github.com/javascript-studio/eslint-config/commit/a85468d7991f665c44a27ad419355d1493124126)
+  npm audit
+- 🛡️ [`fa092b1`](https://github.com/javascript-studio/eslint-config/commit/fa092b1529716ad495aa85626b6c14d448180445)
+  Bump semver from 7.5.1 to 7.5.3 (dependabot[bot])
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2024-07-03._
+
 ## 6.0.0
 
 - 💄 [`31acb03`](https://github.com/javascript-studio/eslint-config/commit/31acb035ec51089223407fad1823de438ddab2ea)
