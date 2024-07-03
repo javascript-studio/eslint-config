@@ -17,7 +17,7 @@
   "peerDependencies": {
     "eslint": "^8",
     "eslint-plugin-jsdoc": "^48.5.0",
-    "eslint-plugin-mocha": "^10",
+    "eslint-plugin-mocha": "^10.4.3",
     "eslint-plugin-n": "^17.9.0",
     "jsdoc": "^4"
   },
