@@ -12,7 +12,7 @@
     "postversion": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
-    "@studio/changes": "^2.2.0"
+    "@studio/changes": "^3.0.0"
   },
   "peerDependencies": {
     "eslint": "^8",
