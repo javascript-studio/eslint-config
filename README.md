@@ -5,24 +5,27 @@ The [sharable eslint config][docs] for all JavaScript Studio projects.
 ## Install
 
 ```bash
-$ npm install @studio/eslint-config eslint eslint-plugin-mocha eslint-plugin-jsdoc eslint-plugin-node --save-dev
+❯ npm i @studio/eslint-config -D
 ```
 
 ## Usage
 
-Make sure this is in your `package.json`:
+Configure in `eslint.config.js`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@studio"
+```js
+import studio_eslint_config from '@studio/eslint-config';
+
+export default [
+  ...studio_eslint_config,
+  {
+    /* Project specific overrides */
   }
-}
+];
 ```
 
 This configuration works great with [`@studio/tsconfig`][tsconfig].
 
-__Pro tip™:__ Check out [eslint_d][] for faster editor integration.
+**Pro tip™:** Check out [eslint_d][] for faster editor integration.
 
 ## License
 
