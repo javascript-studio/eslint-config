@@ -1,6 +1,6 @@
 {
   "name": "@studio/eslint-config",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "The JavaScript Studio sharable eslint config",
   "main": "eslint.config.js",
   "type": "module",

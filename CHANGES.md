@@ -1,5 +1,14 @@
 # Changes
 
+## 8.0.0
+
+- 💥 [`4e97b57`](https://github.com/javascript-studio/eslint-config/commit/4e97b57c76166e3120aa6d9c8fcf56bf8b9bf484)
+  Upgrade eslint to v9 and use flat config
+- 📚 [`78b0cb0`](https://github.com/javascript-studio/eslint-config/commit/78b0cb023c07324a59ed3d7790cba43c5a2901e5)
+  Update README
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2024-07-28._
+
 ## 7.0.0
 
 - 🍏 [`1cdcfb1`](https://github.com/javascript-studio/eslint-config/commit/1cdcfb1171c7daf0aecf108bc008562789b30b71)
