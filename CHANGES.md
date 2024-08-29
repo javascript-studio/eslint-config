@@ -1,5 +1,12 @@
 # Changes
 
+## 8.0.1
+
+- ✨ [`91047dc`](https://github.com/javascript-studio/eslint-config/commit/91047dc1d90b605c9a0f6f81d4d1bcf603cb285a)
+  Configure packaged files
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2024-08-29._
+
 ## 8.0.0
 
 - 💥 [`4e97b57`](https://github.com/javascript-studio/eslint-config/commit/4e97b57c76166e3120aa6d9c8fcf56bf8b9bf484)
