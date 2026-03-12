@@ -49,7 +49,7 @@ export default [
 
     rules: {
       // https://github.com/lo1tuma/eslint-plugin-mocha
-      'mocha/no-async-describe': 2,
+      'mocha/no-async-suite': 2,
       'mocha/no-exclusive-tests': 2,
       'mocha/no-identical-title': 2,
       'mocha/no-return-and-callback': 2,
