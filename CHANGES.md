@@ -1,5 +1,12 @@
 # Changes
 
+## 9.0.0
+
+- ✨ [`b89b577`](https://github.com/javascript-studio/eslint-config/commit/b89b577ea57fc24783eb1cded0a1c1bfcf1ff241)
+  Upgrade to eslint 10
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2026-03-12._
+
 ## 8.0.1
 
 - ✨ [`91047dc`](https://github.com/javascript-studio/eslint-config/commit/91047dc1d90b605c9a0f6f81d4d1bcf603cb285a)
