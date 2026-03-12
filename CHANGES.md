@@ -1,5 +1,14 @@
 # Changes
 
+## 9.0.1
+
+- 🐛 [`fdd66ed`](https://github.com/javascript-studio/eslint-config/commit/fdd66edf7a74e8bc668c9aaa39c10225be924689)
+  Fix eslint-plugin-mocha rule name
+- 🐛 [`3ac52a1`](https://github.com/javascript-studio/eslint-config/commit/3ac52a1f067edeb6a54c78684862ec30ab75e3d4)
+  Fix repository url
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2026-03-12._
+
 ## 9.0.0
 
 - ✨ [`b89b577`](https://github.com/javascript-studio/eslint-config/commit/b89b577ea57fc24783eb1cded0a1c1bfcf1ff241)
